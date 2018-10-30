@@ -1,72 +1,45 @@
 <!DOCTYPE html>
-
-<html lang="en">
-
+<html lang="en-us">
 <head>
+	<!-- Document responsive across devices. -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Document's character set. -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Laura Gillespie/ Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+	<title>My Portfolio</title>
+	<!-- Linking CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
-<header>
-    <div class="container">
-        <div class="name">
-            <div class="logo">Laura Gillespie</div>
-        </div>
-
-        <nav class="nav">
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="#" class="active">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-
 <body>
-    <div class="content">
 
-        <div class="main">
-                <section id="project-portfolio">
-            <h1 class="page-title">Portfolio</h1>
-            <ul class="portfolio">
-                <li class="portfolio-item">
-                    <a href="#">
-                        <img src="assets/images/hangman.jpg" alt="Hangman Image">
-                        <h2 class="image-name">Hangman</h2>
-                    </a>
-                </li>
-                <li class="portfolio-item">
-                    <a href="#">
-                        <img src="assets/images/rpg.jpg" alt="RPG Game Image">
-                        <h2 class="image-name">RPG Game</h2>
-                    </a>
-                </li>
-                <li class="portfolio-item">
-                    <a href="#">
-                        <img src="assets/images/trivia.jpg" alt="Trivia Game Image">
-                        <h2 class="image-name">Trivia Game</h2>
-                    </a>
-                </li>
-                <li class="portfolio-item">
-                    <a href="#">
-                        <img src="assets/images/widget.jpg" alt="Rutgers Info Widget Image">
-                        <h2 class="image-name">Rutgers Info Widget</h2>
-                    </a>
-                </li>
-                <li class="portfolio-item">
-                    <a href="#">
-                        <img src="assets/images/rps.jpg" alt="Rock Paper Scissors Image">
-                        <h2 class="image-name">Rock Paper Scissors</h2>
-                    </a>
-                </li>
-            </ul>
-        </section>
-        </div>
-    </div>
+	<div class="header-container">
+		<header>Laura Gillespie</header>
+
+		<nav>
+			<ul>
+				<li class="border"><a href="index.html">About</a></li>
+				<li class="border"><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="main-container">
+		<section id="project-portfolio">
+			<h2>Portfolio</h2>
+
+			<!-- Using single placeholder image for now. -->
+			<ul class="project">
+				<li class="box"><div><img class="project" src="assets/images/hangman.jpg" alt="Project Hangman"><span class="project-title">Hangman</span></div></li>
+				<li class="box"><div><img class="project" src="assets/images/rpg.jpg" alt="Project RPG"><span class="project-title">RPG Game</span></div></li>
+				<li class="box"><div><img class="project" src="assets/images/trivia.jpg" alt="Project Trivia"><span class="project-title">Trivia Game</span></div></li>
+				<li class="box"><div><img class="project" src="assets/images/widget.jpg" alt="Project Widget"><span class="project-title">Rutgers Info Widget</span></div></li>
+				<li class="box"><div><img class="project" src="assets/images/rps.jpg" alt="Project RPS"><span class="project-title">Rock Paper Scissors</span></div></li>
+			</ul>
+    	</section>
+    	
+	</div>
+
+	<footer>&#64; Copyright 2018 Laura Gillespie</footer>
 </body>
-<footer>
-    &copy; Copyright 2018 Laura Gillespie
-</footer>
 </html>
